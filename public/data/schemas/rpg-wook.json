@@ -1,0 +1,73 @@
+{
+	"title": "RPGWorker",
+	"schema": {
+		"$schema": "http://json-schema.org/draft-06/schema#",
+		"$ref": "#/definitions/RPGWorker",
+		"definitions": {
+			"RPGWorker": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"workers": {
+						"type": "array",
+						"items": { "$ref": "#/definitions/Worker" }
+					}
+				},
+				"required": ["workers"],
+				"title": "RPGWorker"
+			},
+			"Worker": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"slug": { "type": "string" },
+					"name": { "type": "string" },
+					"info": { "type": "string" },
+					"resource": { "type": "string" },
+					"total": { "type": "integer" },
+					"autoInc": { "type": "integer" },
+					"cost": { "$ref": "#/definitions/Cost" },
+					"costIncrease": { "type": "number" }
+				},
+				"required": [
+					"autoInc",
+					"cost",
+					"costIncrease",
+					"info",
+					"name",
+					"resource",
+					"slug",
+					"total"
+				],
+				"title": "Worker"
+			},
+			"Cost": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"food": { "type": "integer" }
+				},
+				"required": ["food"],
+				"title": "Cost"
+			}
+		}
+	},
+	"startval": {
+		"workers": [
+			{
+				"slug": "lumberjack",
+				"name": "Lumberjack",
+				"info": "A person who likes to chop wood.",
+				"resource": "wood",
+				"total": 0,
+				"autoInc": 1,
+				"cost": { "food": 10 },
+				"costIncrease": 1.1
+			}
+		]
+	},
+	"config": { "theme": "bootstrap5", "iconlib": "fontawesome4" },
+	"code": "",
+	"style": "",
+	"desc": "Info"
+}

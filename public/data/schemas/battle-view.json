@@ -1,0 +1,448 @@
+{
+	"title": "BattleView",
+	"schema": {
+		"$schema": "http://json-schema.org/draft-06/schema#",
+		"$ref": "#/definitions/BattleView",
+		"definitions": {
+			"BattleView": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"viewObj": {
+						"$ref": "#/definitions/ViewObj"
+					},
+					"viewArr": {
+						"type": "array",
+						"items": {
+							"$ref": "#/definitions/ViewArr"
+						}
+					},
+					"actionObj": {
+						"$ref": "#/definitions/ActionObj"
+					},
+					"actionArr": {
+						"type": "array",
+						"items": {
+							"$ref": "#/definitions/ActionArr"
+						}
+					}
+				},
+				"required": ["actionArr", "actionObj", "viewArr", "viewObj"],
+				"title": "BattleView"
+			},
+			"ActionArr": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"slug": {
+						"type": "string"
+					},
+					"fnName": {
+						"type": "string"
+					},
+					"targetId": {
+						"type": "string"
+					},
+					"order": {
+						"type": "integer"
+					}
+				},
+				"required": ["fnName", "order", "targetId"],
+				"title": "ActionArr"
+			},
+			"ActionObj": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"startBattle": {
+						"$ref": "#/definitions/ActionArr"
+					},
+					"selectFighter": {
+						"$ref": "#/definitions/ActionArr"
+					},
+					"findOpponent": {
+						"$ref": "#/definitions/ActionArr"
+					},
+					"startArena": {
+						"$ref": "#/definitions/ActionArr"
+					},
+					"showResult": {
+						"$ref": "#/definitions/ActionArr"
+					},
+					"backToStart": {
+						"$ref": "#/definitions/ActionArr"
+					},
+					"restartBattle": {
+						"$ref": "#/definitions/ActionArr"
+					}
+				},
+				"required": [
+					"backToStart",
+					"findOpponent",
+					"restartBattle",
+					"selectFighter",
+					"showResult",
+					"startArena",
+					"startBattle"
+				],
+				"title": "ActionObj"
+			},
+			"ViewArr": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"slug": {
+						"type": "string"
+					},
+					"title": {
+						"type": "string"
+					},
+					"querySel": {
+						"type": "string"
+					},
+					"elemId": {
+						"type": "string"
+					},
+					"viewType": {
+						"$ref": "#/definitions/ViewType"
+					},
+					"order": {
+						"type": "integer"
+					},
+					"actions": {
+						"type": "array",
+						"items": {
+							"$ref": "#/definitions/Action"
+						}
+					}
+				},
+				"required": ["elemId", "order", "querySel", "title", "viewType"],
+				"title": "ViewArr"
+			},
+			"Action": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"label": {
+						"type": "string"
+					},
+					"target": {
+						"type": "string"
+					},
+					"targetSlug": {
+						"type": "string"
+					}
+				},
+				"required": ["label", "target", "targetSlug"],
+				"title": "Action"
+			},
+			"ViewObj": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"loadEl": {
+						"$ref": "#/definitions/ViewArr"
+					},
+					"logoEl": {
+						"$ref": "#/definitions/ViewArr"
+					},
+					"landingEl": {
+						"$ref": "#/definitions/ViewArr"
+					},
+					"battleEl": {
+						"$ref": "#/definitions/ViewArr"
+					},
+					"fightEl": {
+						"$ref": "#/definitions/ViewArr"
+					},
+					"opponEl": {
+						"$ref": "#/definitions/ViewArr"
+					},
+					"arenaEl": {
+						"$ref": "#/definitions/ViewArr"
+					},
+					"resultEl": {
+						"$ref": "#/definitions/ViewArr"
+					}
+				},
+				"required": [
+					"arenaEl",
+					"battleEl",
+					"fightEl",
+					"landingEl",
+					"loadEl",
+					"logoEl",
+					"opponEl",
+					"resultEl"
+				],
+				"title": "ViewObj"
+			},
+			"ViewType": {
+				"type": "string",
+				"enum": ["layer", "page"],
+				"title": "ViewType"
+			}
+		}
+	},
+	"startval": {
+		"viewObj": {
+			"loadEl": {
+				"title": "Loading Screen",
+				"querySel": "#loading-screen",
+				"elemId": "loading-screen",
+				"viewType": "layer",
+				"order": 1
+			},
+			"logoEl": {
+				"title": "Logo Animation",
+				"querySel": "#logo-animation",
+				"elemId": "logo-animation",
+				"viewType": "layer",
+				"order": 2
+			},
+			"landingEl": {
+				"title": "Landing Page",
+				"querySel": "#landing-page",
+				"elemId": "landing-page",
+				"viewType": "page",
+				"order": 3,
+				"actions": [
+					{
+						"label": "Start Battle",
+						"target": "battle-page",
+						"targetSlug": "battleEl"
+					}
+				]
+			},
+			"battleEl": {
+				"title": "Battle Page",
+				"querySel": "#battle-page",
+				"elemId": "battle-page",
+				"viewType": "page",
+				"order": 4,
+				"actions": [
+					{
+						"label": "Select Fighter",
+						"target": "fighter-page",
+						"targetSlug": "fightEl"
+					}
+				]
+			},
+			"fightEl": {
+				"title": "Fighter Page",
+				"querySel": "#fighter-page",
+				"elemId": "fighter-page",
+				"viewType": "page",
+				"order": 5,
+				"actions": [
+					{
+						"label": "Find Opponent",
+						"target": "opponent-page",
+						"targetSlug": "opponEl"
+					}
+				]
+			},
+			"opponEl": {
+				"title": "Opponent Page",
+				"querySel": "#opponent-page",
+				"elemId": "opponent-page",
+				"viewType": "page",
+				"order": 6,
+				"actions": [
+					{
+						"label": "Start Arena",
+						"target": "arena-page",
+						"targetSlug": "arenaEl"
+					}
+				]
+			},
+			"arenaEl": {
+				"title": "Arena Page",
+				"querySel": "#arena-page",
+				"elemId": "arena-page",
+				"viewType": "page",
+				"order": 7,
+				"actions": [
+					{
+						"label": "Battle Ended",
+						"target": "result-page",
+						"targetSlug": "resultEl"
+					}
+				]
+			},
+			"resultEl": {
+				"title": "Result Page",
+				"querySel": "#result-page",
+				"elemId": "result-page",
+				"viewType": "layer",
+				"order": 8,
+				"actions": [
+					{
+						"label": "Ending Battle",
+						"target": "landing-page",
+						"targetSlug": "landingEl"
+					},
+					{
+						"label": "Restart Battle",
+						"target": "battle-page",
+						"targetSlug": "battleEl"
+					}
+				]
+			}
+		},
+		"viewArr": [
+			{
+				"slug": "loadEl",
+				"title": "Loading Screen",
+				"querySel": "#loading-screen",
+				"elemId": "loading-screen",
+				"viewType": "layer",
+				"order": 1
+			},
+			{
+				"slug": "logoEl",
+				"title": "Logo Animation",
+				"querySel": "#logo-animation",
+				"elemId": "logo-animation",
+				"viewType": "layer",
+				"order": 2
+			},
+			{
+				"slug": "landingEl",
+				"title": "Landing Page",
+				"querySel": "#landing-page",
+				"elemId": "landing-page",
+				"viewType": "page",
+				"order": 3
+			},
+			{
+				"slug": "battleEl",
+				"title": "Battle Page",
+				"querySel": "#battle-page",
+				"elemId": "battle-page",
+				"viewType": "page",
+				"order": 4
+			},
+			{
+				"slug": "fightEl",
+				"title": "Fighter Page",
+				"querySel": "#fighter-page",
+				"elemId": "fighter-page",
+				"viewType": "page",
+				"order": 5
+			},
+			{
+				"slug": "opponEl",
+				"title": "Opponent Page",
+				"querySel": "#opponent-page",
+				"elemId": "opponent-page",
+				"viewType": "page",
+				"order": 6
+			},
+			{
+				"slug": "arenaEl",
+				"title": "Arena Page",
+				"querySel": "#arena-page",
+				"elemId": "arena-page",
+				"viewType": "page",
+				"order": 7
+			},
+			{
+				"slug": "resultEl",
+				"title": "Result Page",
+				"querySel": "#result-page",
+				"elemId": "result-page",
+				"viewType": "layer",
+				"order": 8
+			}
+		],
+		"actionObj": {
+			"startBattle": {
+				"fnName": "startBattle",
+				"targetId": "battle-page",
+				"order": 1
+			},
+			"selectFighter": {
+				"fnName": "selectFighter",
+				"targetId": "fighter-page",
+				"order": 2
+			},
+			"findOpponent": {
+				"fnName": "findOpponent",
+				"targetId": "opponent-page",
+				"order": 3
+			},
+			"startArena": {
+				"fnName": "startArena",
+				"targetId": "arena-page",
+				"order": 4
+			},
+			"showResult": {
+				"fnName": "showResult",
+				"targetId": "result-page",
+				"order": 5
+			},
+			"backToStart": {
+				"fnName": "backToStart",
+				"targetId": "landing-page",
+				"order": 6
+			},
+			"restartBattle": {
+				"fnName": "restartBattle",
+				"targetId": "battle-page",
+				"order": 7
+			}
+		},
+		"actionArr": [
+			{
+				"slug": "startBattle",
+				"fnName": "startBattle",
+				"targetId": "battle-page",
+				"order": 1
+			},
+			{
+				"slug": "selectFighter",
+				"fnName": "selectFighter",
+				"targetId": "fighter-page",
+				"order": 2
+			},
+			{
+				"slug": "findOpponent",
+				"fnName": "findOpponent",
+				"targetId": "opponent-page",
+				"order": 3
+			},
+			{
+				"slug": "startArena",
+				"fnName": "startArena",
+				"targetId": "arena-page",
+				"order": 4
+			},
+			{
+				"slug": "showResult",
+				"fnName": "showResult",
+				"targetId": "result-page",
+				"order": 5
+			},
+			{
+				"slug": "backToStart",
+				"fnName": "backToStart",
+				"targetId": "landing-page",
+				"order": 6
+			},
+			{
+				"slug": "restartBattle",
+				"fnName": "restartBattle",
+				"targetId": "battle-page",
+				"order": 7
+			}
+		]
+	},
+	"config": {
+		"theme": "bootstrap5",
+		"iconlib": "fontawesome4"
+	},
+	"code": "",
+	"style": "",
+	"desc": "Info"
+}

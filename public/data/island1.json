@@ -1,0 +1,109 @@
+{
+	"height": 4,
+	"layers": [
+		{
+			"data": [
+				3, 0, 0, 0, 0, 0, 20, 2, 2, 3, 0, 0, 0, 0, 0, 19, 0, 0, 0, 0, 0, 20, 2,
+				3
+			],
+			"height": 4,
+			"id": 1,
+			"name": "Kachelebene 1",
+			"opacity": 1,
+			"type": "tilelayer",
+			"visible": true,
+			"width": 6,
+			"x": 0,
+			"y": 0
+		},
+		{
+			"data": [
+				0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 69, 69, 69, 0, 0, 0, 69, 69, 69, 0,
+				0, 0
+			],
+			"height": 4,
+			"id": 2,
+			"name": "Kachelebene 2",
+			"opacity": 1,
+			"type": "tilelayer",
+			"visible": true,
+			"width": 6,
+			"x": 0,
+			"y": 0
+		},
+		{
+			"data": [
+				0, 0, 0, 0, 0, 0, 50, 0, 0, 0, 0, 0, 30, 47, 78, 0, 63, 0, 88, 0, 93,
+				47, 94, 0
+			],
+			"height": 4,
+			"id": 3,
+			"name": "Kachelebene 3",
+			"opacity": 1,
+			"type": "tilelayer",
+			"visible": true,
+			"width": 6,
+			"x": 0,
+			"y": 0
+		},
+		{
+			"data": [
+				0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 49, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+			],
+			"height": 4,
+			"id": 4,
+			"name": "Kachelebene 4",
+			"opacity": 1,
+			"type": "tilelayer",
+			"visible": true,
+			"width": 6,
+			"x": 0,
+			"y": 0
+		},
+		{
+			"data": [
+				0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 0, 0, 0, 0, 0, 0, 0
+			],
+			"height": 4,
+			"id": 5,
+			"name": "Kachelebene 5",
+			"opacity": 1,
+			"type": "tilelayer",
+			"visible": true,
+			"width": 6,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"nextlayerid": 6,
+	"nextobjectid": 1,
+	"orientation": "orthogonal",
+	"renderorder": "right-down",
+	"tiledversion": "1.10.2",
+	"tileheight": 64,
+	"tilesets": [
+		{
+			"firstgid": 1,
+			"source": "pirates.json"
+		},
+		{
+			"columns": 16,
+			"image": "/img/tiles_sheet.png",
+			"imageheight": 384,
+			"imagewidth": 1024,
+			"margin": 0,
+			"name": "tiles_sheet",
+			"spacing": 0,
+			"tilecount": 96,
+			"tiledversion": "1.10.2",
+			"tileheight": 64,
+			"tilewidth": 64,
+			"type": "tileset",
+			"version": "1.10"
+		}
+	],
+	"tilewidth": 64,
+	"type": "map",
+	"version": "1.10",
+	"width": 6
+}

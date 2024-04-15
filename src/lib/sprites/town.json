@@ -1,0 +1,1074 @@
+{
+	"lakes": [
+		{
+			"id": 1,
+			"xlink": "#lake2",
+			"x": 641,
+			"y": 670,
+			"width": 405,
+			"height": 251
+		},
+		{
+			"id": 2,
+			"xlink": "#lake1",
+			"x": -219,
+			"y": 197,
+			"width": 312,
+			"height": 669
+		}
+	],
+	"roads": [
+		{
+			"id": 0,
+			"xlink": "#road-t-junction-4",
+			"x": 622,
+			"y": 47,
+			"width": 168,
+			"height": 96
+		},
+		{
+			"id": 1,
+			"xlink": "#road-horizontal",
+			"x": 1433,
+			"y": 751,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 2,
+			"xlink": "#road-t-junction-2",
+			"x": 1310,
+			"y": 797,
+			"width": 168,
+			"height": 96
+		},
+		{
+			"id": 3,
+			"xlink": "#road-L1",
+			"x": 428,
+			"y": 413,
+			"width": 126,
+			"height": 96
+		},
+		{
+			"id": 4,
+			"xlink": "#road-L1",
+			"x": 1180,
+			"y": 367,
+			"width": 126,
+			"height": 96
+		},
+		{
+			"id": 5,
+			"xlink": "#road-L1",
+			"x": 96,
+			"y": 79,
+			"width": 126,
+			"height": 96
+		},
+		{
+			"id": 6,
+			"xlink": "#road-vertical",
+			"x": 261,
+			"y": 773,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 7,
+			"xlink": "#road-vertical",
+			"x": 345,
+			"y": 821,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 8,
+			"xlink": "#road-vertical",
+			"x": 429,
+			"y": 869,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 9,
+			"xlink": "#road-vertical",
+			"x": 890,
+			"y": 557,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 10,
+			"xlink": "#road-vertical",
+			"x": 974,
+			"y": 605,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 11,
+			"xlink": "#road-vertical",
+			"x": 1058,
+			"y": 653,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 12,
+			"xlink": "#road-vertical",
+			"x": 1142,
+			"y": 701,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 13,
+			"xlink": "#road-vertical",
+			"x": 1226,
+			"y": 749,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 14,
+			"xlink": "#road-vertical",
+			"x": 428,
+			"y": 293,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 15,
+			"xlink": "#road-vertical",
+			"x": 344,
+			"y": 245,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 16,
+			"xlink": "#road-vertical",
+			"x": 262,
+			"y": 198,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 17,
+			"xlink": "#road-vertical",
+			"x": 178,
+			"y": 150,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 18,
+			"xlink": "#road-vertical",
+			"x": 513,
+			"y": 917,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 19,
+			"xlink": "#road-vertical",
+			"x": 1054,
+			"y": 79,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 20,
+			"xlink": "#road-vertical",
+			"x": 743,
+			"y": 118,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 21,
+			"xlink": "#road-vertical",
+			"x": 537,
+			"y": 0,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 22,
+			"xlink": "#road-vertical",
+			"x": 824,
+			"y": 164,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 23,
+			"xlink": "#road-vertical",
+			"x": 972,
+			"y": 32,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 24,
+			"xlink": "#road-vertical",
+			"x": 888,
+			"y": -16,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 25,
+			"xlink": "#road-vertical",
+			"x": 1474,
+			"y": 319,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 26,
+			"xlink": "#road-vertical",
+			"x": 1264,
+			"y": 199,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 27,
+			"xlink": "#road-vertical",
+			"x": 1263,
+			"y": 439,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 28,
+			"xlink": "#road-vertical",
+			"x": 1347,
+			"y": 487,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 29,
+			"xlink": "#road-vertical",
+			"x": 1431,
+			"y": 535,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 30,
+			"xlink": "#road-vertical",
+			"x": 1515,
+			"y": 583,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 31,
+			"xlink": "#road-vertical",
+			"x": 1558,
+			"y": 367,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 32,
+			"xlink": "#road-L3",
+			"x": 638,
+			"y": 557,
+			"width": 168,
+			"height": 72
+		},
+		{
+			"id": 33,
+			"xlink": "#road-t-junction-3",
+			"x": 512,
+			"y": 485,
+			"width": 168,
+			"height": 96
+		},
+		{
+			"id": 34,
+			"xlink": "#road-t-junction-3",
+			"x": 1138,
+			"y": 127,
+			"width": 168,
+			"height": 96
+		},
+		{
+			"id": 35,
+			"xlink": "#road-t-junction-3",
+			"x": 1348,
+			"y": 247,
+			"width": 168,
+			"height": 96
+		},
+		{
+			"id": 36,
+			"xlink": "#road-t-junction-2",
+			"x": 512,
+			"y": 341,
+			"width": 168,
+			"height": 96
+		},
+		{
+			"id": 37,
+			"xlink": "#road-L2",
+			"x": 638,
+			"y": 293,
+			"width": 168,
+			"height": 72
+		},
+		{
+			"id": 38,
+			"xlink": "#road-t-junction-4",
+			"x": 764,
+			"y": 341,
+			"width": 168,
+			"height": 96
+		},
+		{
+			"id": 39,
+			"xlink": "#road-L4",
+			"x": 890,
+			"y": 413,
+			"width": 126,
+			"height": 96
+		},
+		{
+			"id": 40,
+			"xlink": "#road-t-junction-1",
+			"x": 764,
+			"y": 485,
+			"width": 168,
+			"height": 96
+		},
+		{
+			"id": 41,
+			"xlink": "#road-horizontal",
+			"x": 889,
+			"y": 293,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 42,
+			"xlink": "#road-horizontal",
+			"x": 973,
+			"y": 245,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 43,
+			"xlink": "#road-horizontal",
+			"x": 1516,
+			"y": 703,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 44,
+			"xlink": "#road-horizontal",
+			"x": 1226,
+			"y": 869,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 45,
+			"xlink": "#road-horizontal",
+			"x": 1142,
+			"y": 917,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 46,
+			"xlink": "#road-horizontal",
+			"x": 180,
+			"y": 31,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 47,
+			"xlink": "#road-horizontal",
+			"x": 264,
+			"y": -17,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 48,
+			"xlink": "#road-horizontal",
+			"x": 429,
+			"y": 557,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 49,
+			"xlink": "#road-horizontal",
+			"x": 345,
+			"y": 605,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 50,
+			"xlink": "#road-horizontal",
+			"x": 261,
+			"y": 653,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 51,
+			"xlink": "#road-horizontal",
+			"x": 1057,
+			"y": 197,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 52,
+			"xlink": "#road-horizontal",
+			"x": 743,
+			"y": -2,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 53,
+			"xlink": "#road-horizontal",
+			"x": 1264,
+			"y": 319,
+			"width": 126,
+			"height": 72
+		},
+		{
+			"id": 54,
+			"xlink": "#road-L1",
+			"x": 177,
+			"y": 701,
+			"width": 126,
+			"height": 96
+		}
+	],
+	"forest": [
+		{
+			"id": 0,
+			"xlink": "#forest",
+			"x": 215,
+			"y": 305,
+			"width": 112,
+			"height": 148
+		},
+		{
+			"id": 1,
+			"xlink": "#forest",
+			"x": 80,
+			"y": 269,
+			"width": 112,
+			"height": 148
+		},
+		{
+			"id": 2,
+			"xlink": "#forest",
+			"x": 150,
+			"y": 397,
+			"width": 112,
+			"height": 148
+		},
+		{
+			"id": 3,
+			"xlink": "#forest",
+			"x": 27,
+			"y": 801,
+			"width": 112,
+			"height": 148
+		},
+		{
+			"id": 4,
+			"xlink": "#forest",
+			"x": 533,
+			"y": 598,
+			"width": 112,
+			"height": 148
+		},
+		{
+			"id": 5,
+			"xlink": "#forest",
+			"x": 870,
+			"y": 890,
+			"width": 112,
+			"height": 148
+		},
+		{
+			"id": 6,
+			"xlink": "#forest",
+			"x": 1326,
+			"y": -29,
+			"width": 112,
+			"height": 148
+		},
+		{
+			"id": 7,
+			"xlink": "#forest",
+			"x": 1473,
+			"y": 38,
+			"width": 112,
+			"height": 148
+		},
+		{
+			"id": 8,
+			"xlink": "#forest",
+			"x": 1270,
+			"y": 893,
+			"width": 112,
+			"height": 148
+		},
+		{
+			"id": 9,
+			"xlink": "#forest",
+			"x": 1411,
+			"y": 915,
+			"width": 112,
+			"height": 110
+		},
+		{
+			"id": 10,
+			"xlink": "#forest",
+			"x": 1491,
+			"y": 768,
+			"width": 112,
+			"height": 148
+		},
+		{
+			"id": 11,
+			"xlink": "#forest",
+			"x": 1372,
+			"y": 798,
+			"width": 112,
+			"height": 148
+		},
+		{
+			"id": 12,
+			"xlink": "#forest",
+			"x": 488,
+			"y": 912,
+			"width": 112,
+			"height": 110
+		}
+	],
+	"city": [
+		{
+			"id": 5,
+			"xlink": "#shop-1",
+			"x": 210,
+			"y": 48,
+			"width": 143,
+			"height": 134
+		},
+		{
+			"id": 6,
+			"xlink": "#shop-1",
+			"x": 98,
+			"y": 115,
+			"width": 144,
+			"height": 134
+		},
+		{
+			"id": 7,
+			"xlink": "#shop-1",
+			"x": 340,
+			"y": 123,
+			"width": 143,
+			"height": 134
+		},
+		{
+			"id": 8,
+			"xlink": "#shop-1",
+			"x": 234,
+			"y": 194,
+			"width": 143,
+			"height": 134
+		},
+		{
+			"id": 9,
+			"xlink": "#shop-1",
+			"x": 465,
+			"y": 193,
+			"width": 143,
+			"height": 134
+		},
+		{
+			"id": 10,
+			"xlink": "#shop-2",
+			"x": 364,
+			"y": 255,
+			"width": 143,
+			"height": 145
+		},
+		{
+			"id": 11,
+			"xlink": "#shop-2",
+			"x": 1327,
+			"y": 677,
+			"width": 143,
+			"height": 145
+		},
+		{
+			"id": 12,
+			"xlink": "#shop-3",
+			"x": 1137,
+			"y": 833,
+			"width": 110,
+			"height": 106
+		},
+		{
+			"id": 13,
+			"xlink": "#house-big-2",
+			"x": 421,
+			"y": -54,
+			"width": 122,
+			"height": 118
+		},
+		{
+			"id": 14,
+			"xlink": "#house-big-1",
+			"x": 1055,
+			"y": 97,
+			"width": 123,
+			"height": 120
+		},
+		{
+			"id": 15,
+			"xlink": "#house-big-1",
+			"x": 969,
+			"y": 146,
+			"width": 123,
+			"height": 120
+		},
+		{
+			"id": 16,
+			"xlink": "#house-big-2",
+			"x": 878,
+			"y": 198,
+			"width": 123,
+			"height": 120
+		},
+		{
+			"id": 17,
+			"xlink": "#house-big-2",
+			"x": 868,
+			"y": 89,
+			"width": 123,
+			"height": 118
+		},
+		{
+			"id": 18,
+			"xlink": "#house-big-2",
+			"x": 843,
+			"y": -32,
+			"width": 123,
+			"height": 118
+		},
+		{
+			"id": 19,
+			"xlink": "#house-big-2",
+			"x": 768,
+			"y": 155,
+			"width": 123,
+			"height": 118
+		},
+		{
+			"id": 20,
+			"xlink": "#house-big-2",
+			"x": 1171,
+			"y": 45,
+			"width": 123,
+			"height": 118
+		},
+		{
+			"id": 21,
+			"xlink": "#house-big-2",
+			"x": 1045,
+			"y": -28,
+			"width": 123,
+			"height": 118
+		},
+		{
+			"id": 22,
+			"xlink": "#house-big-2",
+			"x": 644,
+			"y": 88,
+			"width": 123,
+			"height": 118
+		},
+		{
+			"id": 23,
+			"xlink": "#building-tall-1",
+			"x": 524,
+			"y": 207,
+			"width": 130,
+			"height": 298
+		},
+		{
+			"id": 24,
+			"xlink": "#buiding-tall-2",
+			"x": 656,
+			"y": 130,
+			"width": 135,
+			"height": 300
+		},
+		{
+			"id": 25,
+			"xlink": "#buiding-tall-2",
+			"x": 654,
+			"y": 284,
+			"width": 135,
+			"height": 300
+		},
+		{
+			"id": 26,
+			"xlink": "#building-tall-1",
+			"x": 800,
+			"y": 203,
+			"width": 130,
+			"height": 298
+		},
+		{
+			"id": 27,
+			"xlink": "#building-mid-1",
+			"x": 407,
+			"y": 406,
+			"width": 135,
+			"height": 174
+		},
+		{
+			"id": 28,
+			"xlink": "#building-mid-1",
+			"x": 526,
+			"y": 468,
+			"width": 135,
+			"height": 174
+		},
+		{
+			"id": 29,
+			"xlink": "#house-big-1",
+			"x": 657,
+			"y": -48,
+			"width": 123,
+			"height": 120
+		},
+		{
+			"id": 30,
+			"xlink": "#house-big-2",
+			"x": 738,
+			"y": 15,
+			"width": 123,
+			"height": 118
+		},
+		{
+			"id": 31,
+			"xlink": "#house-big-2",
+			"x": 950,
+			"y": 27,
+			"width": 123,
+			"height": 118
+		},
+		{
+			"id": 32,
+			"xlink": "#house-big-2",
+			"x": 534,
+			"y": 5,
+			"width": 123,
+			"height": 118
+		},
+		{
+			"id": 33,
+			"xlink": "#shop-3",
+			"x": 1235,
+			"y": 777,
+			"width": 110,
+			"height": 106
+		},
+		{
+			"id": 34,
+			"xlink": "#shop-3",
+			"x": 1025,
+			"y": 897,
+			"width": 110,
+			"height": 106
+		},
+		{
+			"id": 35,
+			"xlink": "#house-small-1",
+			"x": 1174,
+			"y": 148,
+			"width": 105,
+			"height": 110
+		},
+		{
+			"id": 36,
+			"xlink": "#house-small-1",
+			"x": 1283,
+			"y": 216,
+			"width": 105,
+			"height": 110
+		},
+		{
+			"id": 37,
+			"xlink": "#house-small-1",
+			"x": 1090,
+			"y": 196,
+			"width": 105,
+			"height": 110
+		},
+		{
+			"id": 38,
+			"xlink": "#house-small-1",
+			"x": 1210,
+			"y": 258,
+			"width": 105,
+			"height": 110
+		},
+		{
+			"id": 39,
+			"xlink": "#house-small-1",
+			"x": 1264,
+			"y": 334,
+			"width": 105,
+			"height": 110
+		},
+		{
+			"id": 40,
+			"xlink": "#house-small-1",
+			"x": 1377,
+			"y": 269,
+			"width": 105,
+			"height": 110
+		},
+		{
+			"id": 41,
+			"xlink": "#house-small-1",
+			"x": 1007,
+			"y": 248,
+			"width": 105,
+			"height": 110
+		},
+		{
+			"id": 42,
+			"xlink": "#house-small-1",
+			"x": 1128,
+			"y": 304,
+			"width": 105,
+			"height": 110
+		},
+		{
+			"id": 43,
+			"xlink": "#building-tall-1",
+			"x": 946,
+			"y": 305,
+			"width": 130,
+			"height": 298
+		},
+		{
+			"id": 44,
+			"xlink": "#house-small-2",
+			"x": 1295,
+			"y": 116,
+			"width": 105,
+			"height": 107
+		},
+		{
+			"id": 45,
+			"xlink": "#house-small-2",
+			"x": 1389,
+			"y": 169,
+			"width": 105,
+			"height": 107
+		},
+		{
+			"id": 46,
+			"xlink": "#house-small-2",
+			"x": 1479,
+			"y": 223,
+			"width": 105,
+			"height": 107
+		},
+		{
+			"id": 47,
+			"xlink": "#house-small-2",
+			"x": 1135,
+			"y": 376,
+			"width": 105,
+			"height": 107
+		},
+		{
+			"id": 48,
+			"xlink": "#house-small-2",
+			"x": 1215,
+			"y": 422,
+			"width": 105,
+			"height": 107
+		},
+		{
+			"id": 49,
+			"xlink": "#house-small-2",
+			"x": 1297,
+			"y": 468,
+			"width": 105,
+			"height": 107
+		},
+		{
+			"id": 50,
+			"xlink": "#house-small-2",
+			"x": 1379,
+			"y": 516,
+			"width": 105,
+			"height": 107
+		},
+		{
+			"id": 51,
+			"xlink": "#house-small-2",
+			"x": 1355,
+			"y": 391,
+			"width": 105,
+			"height": 107
+		},
+		{
+			"id": 52,
+			"xlink": "#house-small-2",
+			"x": 1451,
+			"y": 447,
+			"width": 105,
+			"height": 107
+		},
+		{
+			"id": 53,
+			"xlink": "#house-small-2",
+			"x": 1465,
+			"y": 325,
+			"width": 105,
+			"height": 107
+		},
+		{
+			"id": 54,
+			"xlink": "#house-small-2",
+			"x": 1465,
+			"y": 573,
+			"width": 105,
+			"height": 107
+		},
+		{
+			"id": 55,
+			"xlink": "#building-mid-1",
+			"x": 1062,
+			"y": 497,
+			"width": 135,
+			"height": 174
+		},
+		{
+			"id": 56,
+			"xlink": "#building-mid-1",
+			"x": 1199,
+			"y": 575,
+			"width": 135,
+			"height": 174
+		},
+		{
+			"id": 57,
+			"xlink": "#building-mid-2",
+			"x": 296,
+			"y": 488,
+			"width": 118,
+			"height": 163
+		},
+		{
+			"id": 58,
+			"xlink": "#building-mid-2",
+			"x": 402,
+			"y": 535,
+			"width": 118,
+			"height": 163
+		},
+		{
+			"id": 59,
+			"xlink": "#building-mid-2",
+			"x": 161,
+			"y": 566,
+			"width": 118,
+			"height": 163
+		},
+		{
+			"id": 60,
+			"xlink": "#building-mid-2",
+			"x": 261,
+			"y": 615,
+			"width": 118,
+			"height": 163
+		},
+		{
+			"id": 61,
+			"xlink": "#building-tall-1",
+			"x": 821,
+			"y": 371,
+			"width": 130,
+			"height": 298
+		},
+		{
+			"id": 62,
+			"xlink": "#building-mid-1",
+			"x": 1093,
+			"y": 642,
+			"width": 135,
+			"height": 174
+		},
+		{
+			"id": 63,
+			"xlink": "#building-mid-1",
+			"x": 366,
+			"y": 674,
+			"width": 135,
+			"height": 174
+		},
+		{
+			"id": 64,
+			"xlink": "#building-mid-1",
+			"x": 141,
+			"y": 674,
+			"width": 135,
+			"height": 174
+		},
+		{
+			"id": 65,
+			"xlink": "#building-mid-1",
+			"x": 485,
+			"y": 743,
+			"width": 135,
+			"height": 174
+		},
+		{
+			"id": 66,
+			"xlink": "#building-mid-1",
+			"x": 251,
+			"y": 749,
+			"width": 135,
+			"height": 174
+		},
+		{
+			"id": 67,
+			"xlink": "#building-mid-1",
+			"x": 375,
+			"y": 815,
+			"width": 135,
+			"height": 174
+		}
+	]
+}

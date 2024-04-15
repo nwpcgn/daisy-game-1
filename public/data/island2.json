@@ -1,0 +1,71 @@
+{
+	"compressionlevel": -1,
+	"height": 3,
+	"infinite": false,
+	"layers": [
+		{
+			"data": [54, 55, 37, 0, 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 54, 55, 56, 55],
+			"height": 3,
+			"id": 1,
+			"name": "Kachelebene1",
+			"opacity": 1,
+			"type": "tilelayer",
+			"visible": true,
+			"width": 6,
+			"x": 0,
+			"y": 0
+		},
+		{
+			"data": [0, 0, 0, 23, 23, 23, 0, 0, 0, 23, 23, 23, 0, 0, 0, 0, 0, 0],
+			"height": 3,
+			"id": 4,
+			"name": "Kachelebene2",
+			"opacity": 1,
+			"type": "tilelayer",
+			"visible": true,
+			"width": 6,
+			"x": 0,
+			"y": 0
+		},
+		{
+			"data": [0, 0, 0, 0, 32, 0, 0, 0, 0, 0, 93, 48, 0, 0, 0, 0, 0, 0],
+			"height": 3,
+			"id": 3,
+			"name": "Kachelebene3",
+			"opacity": 1,
+			"type": "tilelayer",
+			"visible": true,
+			"width": 6,
+			"x": 0,
+			"y": 0
+		},
+		{
+			"data": [0, 0, 0, 0, 0, 0, 0, 51, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			"height": 3,
+			"id": 5,
+			"name": "Kachelebene 4",
+			"opacity": 1,
+			"type": "tilelayer",
+			"visible": true,
+			"width": 6,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"nextlayerid": 6,
+	"nextobjectid": 1,
+	"orientation": "orthogonal",
+	"renderorder": "right-down",
+	"tiledversion": "1.10.2",
+	"tileheight": 64,
+	"tilesets": [
+		{
+			"firstgid": 1,
+			"source": "pirates.json"
+		}
+	],
+	"tilewidth": 64,
+	"type": "map",
+	"version": "1.10",
+	"width": 6
+}

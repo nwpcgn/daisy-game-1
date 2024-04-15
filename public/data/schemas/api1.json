@@ -1,0 +1,81 @@
+{
+	"openapi": "3.0.0",
+	"info": {
+		"version": "1",
+		"title": "",
+		"description": ""
+	},
+	"paths": {
+		"/data/hsp_serien/": {
+			"get": {
+				"operationId": "1",
+				"description": "",
+				"parameters": [],
+				"responses": {
+					"200": {
+						"description": "",
+						"content": {
+							"application/json": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"components": {
+		"securitySchemes": {},
+		"schemas": {
+			"hsp-serien": {
+				"properties": {
+					"id_m": {
+						"nullable": false,
+						"type": "number"
+					},
+					"op": {
+						"nullable": false,
+						"type": "number"
+					},
+					"name": {
+						"nullable": false,
+						"type": "string"
+					},
+					"genre": {
+						"nullable": false,
+						"type": "string"
+					},
+					"studio": {
+						"nullable": false,
+						"type": "string"
+					},
+					"logo": {
+						"nullable": true,
+						"type": "string"
+					},
+					"card": {
+						"nullable": true,
+						"type": "string"
+					},
+					"hsp_main": {
+						"nullable": true,
+						"type": "array",
+						"items": {
+							"$ref": "#/components/schemas/hsp-serien-count"
+						}
+					}
+				}
+			},
+			"hsp-serien-count": {
+				"properties": {
+					"count": {
+						"nullable": true,
+						"type": "number"
+					}
+				}
+			}
+		}
+	}
+}

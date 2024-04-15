@@ -1,0 +1,136 @@
+{
+	"title": "RPGResourcen",
+	"schema": {
+		"$schema": "http://json-schema.org/draft-06/schema#",
+		"$ref": "#/definitions/RPGResourcen",
+		"definitions": {
+			"RPGResourcen": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"resources": {
+						"type": "array",
+						"items": {
+							"$ref": "#/definitions/Resource"
+						}
+					}
+				},
+				"required": ["resources"],
+				"title": "RPGResourcen"
+			},
+			"Resource": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"slug": {
+						"type": "string"
+					},
+					"name": {
+						"type": "string"
+					},
+					"info": {
+						"type": "string"
+					},
+					"action": {
+						"type": "string"
+					},
+					"total": {
+						"type": "integer"
+					},
+					"clickInc": {
+						"type": "integer"
+					},
+					"autoInc": {
+						"type": "integer"
+					},
+					"chanceInc": {
+						"type": "integer"
+					},
+					"max": {
+						"type": "integer"
+					},
+					"storage": {
+						"$ref": "#/definitions/Storage"
+					}
+				},
+				"required": [
+					"action",
+					"autoInc",
+					"chanceInc",
+					"clickInc",
+					"info",
+					"max",
+					"name",
+					"slug",
+					"storage",
+					"total"
+				],
+				"title": "Resource"
+			},
+			"Storage": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"total": {
+						"type": "integer"
+					},
+					"max": {
+						"type": "integer"
+					},
+					"cost": {
+						"$ref": "#/definitions/Cost"
+					},
+					"costIncrease": {
+						"type": "number"
+					}
+				},
+				"required": ["cost", "costIncrease", "max", "total"],
+				"title": "Storage"
+			},
+			"Cost": {
+				"type": "object",
+				"properties": {
+					"wood": {
+						"type": "integer"
+					},
+					"stone": {
+						"type": "integer"
+					}
+				},
+				"required": [],
+				"title": "Cost"
+			}
+		}
+	},
+	"startval": {
+		"resources": [
+			{
+				"slug": "wood",
+				"name": "Wood",
+				"info": "Brown stuff that grows on trees.",
+				"action": "Chop",
+				"total": 0,
+				"clickInc": 1,
+				"autoInc": 0,
+				"chanceInc": 1,
+				"max": 100,
+				"storage": {
+					"total": 1,
+					"max": 100,
+					"cost": {
+						"wood": 50,
+						"stone": 50
+					},
+					"costIncrease": 1.1
+				}
+			}
+		]
+	},
+	"config": {
+		"theme": "bootstrap5",
+		"iconlib": "fontawesome4"
+	},
+	"code": "",
+	"style": "",
+	"desc": "Info"
+}

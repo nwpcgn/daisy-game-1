@@ -1,0 +1,84 @@
+{
+	"wrapper": {
+		"id": 0,
+		"name": "buildingWrapper",
+		"left": 0,
+		"top": 0,
+		"bottom": 720,
+		"right": 570,
+		"width": 570,
+		"height": 720
+	},
+	"rows": [
+		{
+			"id": 1,
+			"name": "floor1",
+			"left": 0,
+			"top": 0,
+			"bottom": 102,
+			"right": 570,
+			"width": 570,
+			"height": 102
+		},
+		{
+			"id": 2,
+			"name": "floor2",
+			"left": 0,
+			"top": 102,
+			"bottom": 204,
+			"right": 570,
+			"width": 570,
+			"height": 102
+		},
+		{
+			"id": 3,
+			"name": "floor3",
+			"left": 0,
+			"top": 204,
+			"bottom": 306,
+			"right": 570,
+			"width": 570,
+			"height": 102
+		},
+		{
+			"id": 4,
+			"name": "floor4",
+			"left": 0,
+			"top": 306,
+			"bottom": 408,
+			"right": 570,
+			"width": 570,
+			"height": 102
+		},
+		{
+			"id": 5,
+			"name": "floor5",
+			"left": 0,
+			"top": 408,
+			"bottom": 510,
+			"right": 570,
+			"width": 570,
+			"height": 102
+		},
+		{
+			"id": 6,
+			"name": "floor6",
+			"left": 0,
+			"top": 510,
+			"bottom": 612,
+			"right": 570,
+			"width": 570,
+			"height": 102
+		},
+		{
+			"id": 7,
+			"name": "floor7",
+			"left": 0,
+			"top": 612,
+			"bottom": 714,
+			"right": 570,
+			"width": 570,
+			"height": 102
+		}
+	]
+}

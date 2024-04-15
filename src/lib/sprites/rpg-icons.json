@@ -1,0 +1,67 @@
+[
+	{
+		"name": "alert",
+		"xlink": "nwp-alert",
+		"className": "nwp-icon"
+	},
+	{
+		"name": "close",
+		"xlink": "nwp-close",
+		"className": "nwp-icon"
+	},
+	{
+		"name": "database",
+		"xlink": "nwp-database",
+		"className": "nwp-icon"
+	},
+	{
+		"name": "options",
+		"xlink": "nwp-options",
+		"className": "nwp-icon"
+	},
+	{
+		"name": "error",
+		"xlink": "nwp-error",
+		"className": "nwp-icon"
+	},
+	{
+		"name": "info",
+		"xlink": "nwp-info",
+		"className": "nwp-icon"
+	},
+	{
+		"name": "state",
+		"xlink": "nwp-state",
+		"className": "nwp-icon"
+	},
+	{
+		"name": "start",
+		"xlink": "nwp-start",
+		"className": "nwp-icon"
+	},
+	{
+		"name": "hsp",
+		"xlink": "nwp-hsp",
+		"className": "nwp-icon"
+	},
+	{
+		"name": "rpg",
+		"xlink": "nwp-rpg",
+		"className": "nwp-icon"
+	},
+	{
+		"name": "cookie",
+		"xlink": "nwp-cookie",
+		"className": "nwp-icon"
+	},
+	{
+		"name": "settings",
+		"xlink": "nwp-settings",
+		"className": "nwp-icon"
+	},
+	{
+		"name": "info1",
+		"xlink": "nwp-info1",
+		"className": "nwp-icon"
+	}
+]

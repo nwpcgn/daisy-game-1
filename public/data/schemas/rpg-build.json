@@ -1,0 +1,71 @@
+{
+	"title": "RPGBuilding",
+	"schema": {
+		"$schema": "http://json-schema.org/draft-06/schema#",
+		"$ref": "#/definitions/RPGBuilding",
+		"definitions": {
+			"RPGBuilding": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"building": {
+						"type": "array",
+						"items": { "$ref": "#/definitions/Building" }
+					}
+				},
+				"required": ["building"],
+				"title": "RPGBuilding"
+			},
+			"Building": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"slug": { "type": "string" },
+					"name": { "type": "string" },
+					"info": { "type": "string" },
+					"total": { "type": "integer" },
+					"residents": { "type": "integer" },
+					"cost": { "$ref": "#/definitions/Cost" },
+					"costIncrease": { "type": "number" }
+				},
+				"required": [
+					"cost",
+					"costIncrease",
+					"info",
+					"name",
+					"residents",
+					"slug",
+					"total"
+				],
+				"title": "Building"
+			},
+			"Cost": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"wood": { "type": "integer" },
+					"iron": { "type": "integer" }
+				},
+				"required": ["iron", "wood"],
+				"title": "Cost"
+			}
+		}
+	},
+	"startval": {
+		"building": [
+			{
+				"slug": "house",
+				"name": "House",
+				"info": "Just like a tent but way bigger and not made out of fabric.",
+				"total": 0,
+				"residents": 4,
+				"cost": { "wood": 75, "iron": 10 },
+				"costIncrease": 1.1
+			}
+		]
+	},
+	"config": { "theme": "bootstrap5", "iconlib": "fontawesome4" },
+	"code": "",
+	"style": "",
+	"desc": "Info"
+}
